@@ -1,0 +1,155 @@
+
+#title{
+    background-color: rgb(204, 71, 94);
+    /* width: 90; */
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-right: 2rem;
+    margin: 2rem;
+}
+.container-fluid{
+    padding :1% 15% 1%;
+    /* height: 55rem; */
+    /* margin-bottom: 8%; */
+}
+li{
+    font-size: 1.5rem;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+    /* width: 90%; */
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.6rem;
+    font-weight: bold;
+    padding-right: 30%;
+}
+.nav-item{
+    padding: 0rem 1.5rem;
+}
+.nav-link{
+    font-family: "Monsterrat-Light";
+}
+.download-button{
+    margin: 10% 4% 15% ;
+}
+.tittle-image{
+    /* width: 70%; */
+    /* height: 110%; */
+    transform: rotate(25deg);
+    /* position: relative;
+    left: 1rem; */
+    /* margin-top: 3rem; */
+    position: absolute;
+    /* top: 2rem; */
+    z-index: 1;
+    padding-top: 5%;
+    /* padding-left: 20%; */
+}
+#features{
+    /* height: 5rem; */
+    /* position: relative;
+    top: 20rem; */
+    /* bottom: 20rem; */
+    /* padding: 15rem 5rem 35rem 5rem; */
+    background-color: white;
+    position: relative;
+    
+    z-index: 2;
+    padding: 7% 15%;
+    
+}
+.feature-box{
+    text-align: center;
+    /* padding: 7% 15% ; */
+    /* color: plum; */
+}
+h3{
+    font-weight: "Monsterrat-Black";
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+}
+p{
+    color:grey;
+}
+.feature-item{
+    color: rgb(252, 144, 102);
+    padding-bottom: 1rem;
+}
+.feature-item:hover{
+    color: rgb(204, 71, 94)
+}
+#testimonials{
+    
+    background-color: rgb(252, 144, 102);
+    text-align: center;
+    color: white;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+h2{
+    font-family:"Monsterrate-Black";
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bolder;
+}
+.testimonial-img{
+    transform: rotate(10deg);
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+    margin: 2.5rem;
+}
+#press{
+    padding: 7% 5%;
+    text-align: center;
+    background-color: rgb(252, 144, 102)
+}
+.press-logo{
+    margin: 0 2%;
+}
+#pricing{
+    padding: 7% 10%;
+    margin: 2% 5%;
+    text-align: center;
+} 
+@media(max-width: 1084px){
+    #title{
+        text-align: center;
+    }
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: rgb(204, 71, 94);
+    text-align: center;
+}
+.cta-box{
+    padding-bottom: 5%;
+}
+.cta-box h3{
+    font-family: "Monsterrate-Black";
+    font-size: 5rem;
+    padding: 5% 15% 2%;
+    color: white;
+}
+#footer{
+    /* color: grey; */
+    text-align: center;
+    padding: 5%;
+    background-color: honeydew;
+    font-size: 1.5rem;
+}
+.copyright{
+    color: grey;
+}
